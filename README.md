@@ -1,7 +1,7 @@
 # quick-and-dirty-webpage-generator
 A quick and dirty page generator. 
 
-Create your page in regular HTML. Add your markdown content files to the `site/content` directory.
+Create your page in regular HTML. Add your markdown content files to the `site/content/` directory.
 
 Add placeholders in your HTML where your content should be:
 
@@ -24,7 +24,7 @@ Add placeholders in your HTML where your content should be:
 
 Wrap your content file names in triple braces. (No spaces!)
 
-Save HTML template with `.dirty` extension.
+Save HTML template in `site/` directory with `.dirty` extension.
 
 Run:
 
