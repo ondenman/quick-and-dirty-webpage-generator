@@ -1,0 +1,61 @@
+@import './reset.css';
+@import './typography.css';
+
+body {
+    color: #555;
+    background-color: #f3f1eb;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 2em;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #444;
+}
+
+nav {
+    color: #fff;
+    background-color: #62b356;
+    padding: 1em 0;
+    margin-bottom: 4em;
+}
+
+nav li {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 125%;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content {
+    display: inline-block;
+    max-width: 60em;
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding: 5em;
+    background-color: #fff;
+
+    border-style: solid;
+    border-top-color: #27cc71;
+    border-width: 1em 0 0em;
+}
+
+@media only screen 
+  and (max-width: 750px) {
+    .content  {
+        padding: 3em;
+    }
+}
+
+.content h1 {
+    margin-top: 0px;
+}
+
+a {
+    color: #62b356;
+}

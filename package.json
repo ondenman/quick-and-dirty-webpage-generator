@@ -1,0 +1,14 @@
+{
+  "name": "quick-and-dirty-webpage-generator",
+  "version": "1.0.0",
+  "description": "Throw together a page",
+  "main": "dirty.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^0.3.5"
+  }
+}
