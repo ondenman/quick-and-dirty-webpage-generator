@@ -1,0 +1,17 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Hello!</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <div class="content top-content">
+                {{{content.md}}}
+            </div>
+        </div>
+    </main>
+</body>
+</html>
