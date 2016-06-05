@@ -26,8 +26,10 @@ Wrap your content file names in triple braces. (No spaces!)
 
 Save HTML template in `site/` directory with `.dirty` extension.
 
-Run:
+To specify a single file, run:
 
 ~~~
 $ node dirty.js file.dirty
 ~~~
+
+Or have dirty.js convert all `.dirty` files within the `site/` directory.
