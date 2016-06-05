@@ -32,4 +32,9 @@ To specify a single file, run:
 $ node dirty.js file.dirty
 ~~~
 
-Or have dirty.js convert all `.dirty` files within the `site/` directory.
+Or have dirty.js convert all `.dirty` files within the `site/` directory:
+
+~~~
+$ node dirty.js
+~~~
+
